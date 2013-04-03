@@ -58,6 +58,6 @@ algorithm for low-level network errors.
 EOF
 
   candidates = Dir.glob('{lib,spec}/**/*') + ['History.txt', 'Manifest.txt', 'README.txt', 'Rakefile',
-                                              'right_http_connection.gemspec']
+                                              'http_connection.gemspec']
   spec.files = candidates.sort
 end
